@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk | TikTok</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS RESET */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'ProximaNova', sans-serif; }
+
+        body {
+            background-color: #010101; /* Background Hitam Khas TikTok */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 440px;
+            padding: 40px;
+            background-color: #010101;
+            text-align: center;
+        }
+
+        /* LOGO TIKTOK MIRIP ASLI */
+        .logo-tiktok {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+        .logo-tiktok span { color: #25F4EE; text-shadow: 2px 0 #FE2C55; }
+
+        h2 { font-size: 24px; margin-bottom: 20px; }
+
+        .input-group { margin-bottom: 12px; text-align: left; }
+        
+        input {
+            width: 100%;
+            padding: 14px;
+            background-color: #2F2F2F;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            color: white;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input:focus { border-color: rgba(255, 255, 255, 0.5); }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #FE2C55; /* Warna Pink Merah TikTok */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover { background-color: #e0244d; }
+
+        /* FOOTER WAJIB TUGAS */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 12px;
+            color: #ff4d4d; /* Warna merah peringatan */
+            text-align: center;
+            border-top: 1px solid #333;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="logo-tiktok"><span>Tik</span>Tok</div>
+        <h2>Masuk</h2>
+        
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Email atau Nama Pengguna" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Kata sandi" required>
+            </div>
+            <button type="submit" class="login-btn">Masuk</button>
+        </form>
+    </div>
+
+    <footer>
+        Halaman ini adalah simulasi edukasi keamanan cyber. Perhatikan URL sebelum memasukkan data sensitif!
+    </footer>
+
+</body>
+</html>
